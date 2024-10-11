@@ -8,7 +8,8 @@ import SumarNumeros from './components/SumarNumeros';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SumarNumeros/>
+    <SumarNumeros numero1="77" numero2="12" />
+    <SumarNumeros numero1="82" numero2="53" />
   </React.StrictMode>
 );
 
