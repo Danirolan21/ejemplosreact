@@ -4,12 +4,12 @@ import './index.css';
 import App from './components/App'
 import reportWebVitals from './reportWebVitals';
 import SumarNumeros from './components/SumarNumeros';
+import SaludoPadre from './components/SaludoPadre';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SumarNumeros numero1="77" numero2="12" />
-    <SumarNumeros numero1="82" numero2="53" />
+    <SaludoPadre/>
   </React.StrictMode>
 );
 
