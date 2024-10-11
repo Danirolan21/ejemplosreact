@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './components/App'
 import reportWebVitals from './reportWebVitals';
-import SumarNumeros from './components/SumarNumeros';
-import SaludoPadre from './components/SaludoPadre';
+import PadreMatematicas from './components/PadreMatematicas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SaludoPadre/>
+    <PadreMatematicas numero="7"/>
   </React.StrictMode>
 );
 
