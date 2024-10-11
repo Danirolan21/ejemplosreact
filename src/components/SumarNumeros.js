@@ -3,16 +3,16 @@ import imagen from './../assets/images/R2D2.jpeg'
 import './SumarNumeros.css'
 
 function SumarNumeros() {
-    var total = 0;
-    const mostrarNumero = (numero) => {
-        console.log(numero);
-        total += numero;
+    const mostrarNumero = (numero1, numero2) => {
+        var total = 0;
+        total = numero1 + numero2;
         console.log("Total: " + total);
     }
   return (
     <div className='container'>
-        <button onClick={ () => mostrarNumero(1) }>Numero 1</button>
-        <button onClick={ () => mostrarNumero(2) }>Numero 2</button>
+        <h1>Sumar numeros Component</h1>
+        <button onClick={ () => mostrarNumero(7, 3) }>Suma 7 + 3</button>
+        <button onClick={ () => mostrarNumero(8, 1) }>Suma 8 + 1</button><br/>
         <img src={imagen}/>
     </div>
   )
