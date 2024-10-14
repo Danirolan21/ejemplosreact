@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import PadreMatematicas from './components/PadreMatematicas';
+import Car from './components/Car';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreMatematicas numero="7"/>
+    <Car marca="Audi" modelo="Q3" aceleracion="25" velocidadmaxima="240"/>
+    <Car marca="Pontiac" modelo="Firebird" aceleracion="45" velocidadmaxima="340"/>
   </React.StrictMode>
 );
 
